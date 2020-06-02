@@ -1,0 +1,61 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.section-top {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background: url('./close-up-of-leaf-326055.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slide 15s infinite;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.content h1 {
+    color: black;
+    font-size: 60px;
+    letter-spacing: 16px;
+}
+
+.content a {
+    background: #0984e3;
+    padding: 10px 24px;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+p {
+    font-size: 20px;
+    padding: 10px;
+    line-height: 24px;
+}
+
+@keyframes slide {
+    0% {
+        background-image: url('./seaport-during-daytime-132037.jpg');
+    }
+    33% {
+        background-image: url('./daylight-forest-glossy-lake-443446.jpg');
+    }
+    67% {
+        background-image: url('./tree-with-brunch-and-green-leaves-during-sunset-70365.jpg');
+    }
+}
